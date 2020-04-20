@@ -1,0 +1,179 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background:  #E6E6FA ;
+}
+.header {
+	width: 1260px;
+}
+.headerLeft {
+	margin-left: 20px;
+	float: left;
+	width: 220px;
+	height: 200px;
+	padding: 10px;
+	border: 1px solid blue;
+}
+.headerLeft div:first-of-type {
+	height: 50px;
+	width: 220px;
+}
+.headerLeft div:nth-child(2){
+	padding-left: 10px;
+	height: 50px;
+	width: 220px;
+	padding-top: 10px;
+	height: 40px;
+	word-spacing: 10px;
+}
+.headerLeft div:nth-child(2) table {
+	line-height: 20px;
+}
+.headerLeft div:nth-child(2) table tr {
+	height: 20px;
+}
+.headerLeft div:nth-child(2) table td {
+	width: 40px;
+}
+.nx {
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 50px;
+	width: 220px;
+	height: 40px;
+	word-spacing: 10px;
+}
+.nx td {
+	width: 50px;
+}
+button {
+	
+	background: #87CEEB;
+}
+.headerMid {
+	float: left;
+	width: 600px;
+	height: 200px;
+	padding: 10px 0px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+.headerRight {
+	float: left;
+	width: 220px;
+	height: 200px;
+	padding: 10px;
+	margin-left: 5px;
+	border: 1px solid blue;
+}
+.nav {
+	height: 30px;
+	background: #87CEFA;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.nav ul{
+	list-style-type: none;
+	
+}
+.nav li {
+	float: left;
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.nav input {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 28px;
+	border-bottom: 3px solid blueviolet ;
+	
+}
+.nav a:hover{
+    background-color: pink;/*鼠标悬停时变色*/
+}
+.nav a:active{
+    background-color: #6495ED;/*!被用户单击未松开时的样式*/
+}
+.headerMid div:nth-child(2) {
+	width: 400px;
+	height: 170px;
+	background: pink;
+	margin: 4px auto;
+	position: relative;
+}
+.headerMid div .changeImg li {
+	display: block;
+	width: 400px;
+	height: 170px;
+	position: absolute;
+}
+.headerMid img {
+	width: 400px;
+	height: 170px;
+	position: absolute;
+}
+.headerMid .foucs {
+	position: absolute;
+	top:145px;
+	width: 150px;
+	height: 20px;
+	left: 125px;
+	list-style-type: none;
+}
+.headerMid .foucs li {
+	line-height: 20px;
+	width: 17px;
+	height: 20px;
+	background: #66FFFF;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+#btn1 {
+	position: absolute;
+	top: 80px;
+	left: 3px;
+	background: #CCFFCC;
+}
+#btn2 {
+	position: absolute;
+	top: 80px;
+	right: 3px;
+	background: #CCFFCC;
+}
+.calder {
+	width: 220px;
+	height: 170px;
+}
+.headerRight tr {
+	height: 18px;
+}
+.headerRight tr:first-of-type {
+	height: 24px;
+}
+.headerRight td {
+	width: 30px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.biao {
+	width: 130px;
+	height: 130px;
+	margin-top: 60px;
+	float: right;
+	
+}
